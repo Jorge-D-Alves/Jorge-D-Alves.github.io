@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ==== -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- ===== BOX ICONS ==== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portifolio Pessoal Responsivo | Jorge</title>
+  </head>
+  <body>
+
+    <!-- ===== HEADER ==== -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+  
+          <div>
+            <a href="#" class="nav_logo">Jorge </a>
+          </div>
+  
+          <div class="nav_menu" id="nav-menu">
+            <div class="nav_close" id="nav-close">
+              <i class="bx bx-x"></i>
+            </div>
+  
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a href="#home" onclick="typeWhite(titulo)" class="nav_link active">Home</a>
+              </li>
+              <li class="nav_item">
+                <a href="#about" onclick="typeWhitea(tituloa)"  class="nav_link">Sobre</a>
+              </li>
+              <li class="nav_item">
+                <a href="#skills" class="nav_link">Skills</a>
+              </li>
+              <li class="nav_item">
+                <a href="#services" class="nav_link">Serviços</a>
+              </li>
+              <li class="nav_item">
+                <a href="#works" class="nav_link">Projetos</a>
+              </li>
+              <li class="nav_item">
+                <a href="#contact" class="nav_link">Contate-me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header> 
+
+    <main class="l-main">
+        
+        <!-- ===== HOME ==== -->
+        <section class="home" id="home">
+            <div class="home_container bd-grid">
+                <div class="home_data">
+                    <div class="home_img">
+                        <img src="assets/img/perfil.fw.png" alt="">
+                    </div>
+                    <h1 class="home_title">Jorge Alves</h1>
+                    <span class="home_profession frase">O aprendizado nunca termina. Se você está vivo, há lições para aprender. Estudante Full Stack Developer =)</span>
+
+                    <div class="home_social">
+                        <a href="#" class="home_social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="home_social-link"><i class='bx bxl-github'></i></a>
+                        <a href="#" class="home_social-link"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="home_social-link"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="#" class="home_social-link"><i class='bx bxl-telegram'></i></a>
+                    </div>
+
+                    <a download="" href="#" class="button home_button">Donwload do meu Currículo</a>
+                </div>
+            </div>
+        </section>
+
+         <!-- ===== ABOUT ==== -->
+         <section class="about section" id="about">
+            <span class="section-subtitle">Minha Historia</span>
+            <h2 class="section-title">Sobre Mim</h2>
+    
+            <div class="about_container bd-grid">
+              <div class="about_data">
+                <p class="about_description frasea">Olá, estudante de desenvolvimento Full Stack, apaixonado por Tecnologia. Alguns anos de experiência em TI com Implantação e Suporte de softwares, entrando no mundo do desenvolvimento.</p>
+                <img src="/assets/img/trab2.jpg" alt="" class="about_img" />
+              </div>
+    
+              <div>
+                <div class="about_information">
+                  <h3 class="about_information-title">Informações</h3>
+    
+                  <div class="about_information-data">
+                    <i class="bx bx-user about_information-icon"></i>
+                    <span>Jorge Alves</span>
+                  </div>
+    
+                  <div class="about_information-data">
+                    <i class="bx bx-phone about_information-icon"></i>
+                    <span>11 9 8284 7131</span>
+                  </div>
+    
+                  <div class="about_information-data">
+                    <i class="bx bx-envelope about_information-icon"></i>
+                    <span>alvesdjorge@gmail.com</span>
+                  </div>
+                </div>
+    
+                <div class="about_information">
+                  <h3 class="about_information-title">Experiência Suporte</h3>
+    
+                  <div class="about_information-data">
+                    <i class="bx bx-medal about_information-icon"></i>
+                    <div>
+                      <span class="about_information-subtitle">5 Anos</span>
+                      <span class="about_information-subtitle-small">Experiência</span>
+                    </div>
+                  </div>
+    
+                  <div class="about_information-data">
+                    <i class="bx bx-briefcase about_information-icon"></i>
+                    <div>
+                      <span class="about_information-subtitle">13 Projectos</span>
+                      <span class="about_information-subtitle-small">Completados</span>
+                    </div>
+                  </div>
+    
+                  <div class="about_information-data">
+                    <i class="bx bx-suport about_information-icon"></i>
+                    <div>
+                      <span class="about_information-subtitle">Suporte</span>
+                      <span class="about_information-subtitle-small">Online 24/7</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- ===== SKILLS ==== -->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Por que me escolher</span>
+            <h2 class="section-title">Meus Níveis de Habilidade</h2>
+    
+            <div class="skills_container bd-grid">
+              <div class="skills_content">
+                <h3 class="skills_subtitle">Frontend</h3>
+    
+                <div class="skills_data">
+                  <span class="skills_name">Html/css</span>
+                  <span class="skills_number">80%</span>
+                  <span class="skills_bar skills_html"></span>
+                </div>
+    
+                <div class="skills_data">
+                  <span class="skills_name">Javascript</span>
+                  <span class="skills_number">70%</span>
+                  <span class="skills_bar skills_js"></span>
+                </div>
+    
+                <div class="skills_data">
+                  <span class="skills_name">React</span>
+                  <span class="skills_number">70%</span>
+                  <span class="skills_bar skills_react"></span>
+                </div>
+    
+                <div class="skills_data">
+                  <span class="skills_name">Angular</span>
+                  <span class="skills_number">40%</span>
+                  <span class="skills_bar skills_angular"></span>
+                </div>
+              </div>
+    
+              <div class="skills_content">
+                <h3 class="skills_subtitle">Backend</h3>
+    
+                <div class="skills_data">
+                  <span class="skills_name">PHP</span>
+                  <span class="skills_number">50%</span>
+                  <span class="skills_bar skills_php"></span>
+                </div>
+    
+                <div class="skills_data">
+                  <span class="skills_name">Node.js</span>
+                  <span class="skills_number">20%</span>
+                  <span class="skills_bar skills_node"></span>
+                </div>
+    
+                <div class="skills_data">
+                  <span class="skills_name">SQL</span>
+                  <span class="skills_number">70%</span>
+                  <span class="skills_bar skills_sql"></span>
+                </div>
+    
+              </div>
+            </div>
+          </section>     
+
+        <!-- ===== EDUCATION ==== -->
+        <section class="education section">
+            <span class="section-subtitle">Qualificações</span>
+            <h2 class="section-title">Minhas Formações</h2>
+    
+            <div class="education_container bd-grid">
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2008 - 2011</h3>
+                  <span class="education_university">Universidade 9 de Julho</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">Ciência da Computação</h3>
+                  <span class="education_specialty"
+                    >Desenvolvimento, Análise e Suporte</span
+                  >
+                </div>
+              </div>
+    
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2018 - 2019</h3>
+                  <span class="education_university">Up Inside Treinamentos</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">FORMAÇÃO FULL STACK PHP DEVELOPER</h3>
+                  <span class="education_specialty">Frontent/Backend</span>
+                </div>
+              </div>
+    
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2020 - 2020</h3>
+                  <span class="education_university">IGTI</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">Desenvolvimento Full Stack</h3>
+                  <span class="education_specialty">Frontent/Backend</span>
+                </div>
+              </div>
+    
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2020 - 2021</h3>
+                  <span class="education_university">Trybe</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">Desenvolvimento Full Stack</h3>
+                  <span class="education_specialty">Frontent/Backend</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- ===== SERVICES ==== -->
+        <section class="education section">
+            <span class="section-subtitle">Qualificações</span>
+            <h2 class="section-title">Minhas Formações</h2>
+    
+            <div class="education_container bd-grid">
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2008 - 2011</h3>
+                  <span class="education_university">Universidade 9 de Julho</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">Ciência da Computação</h3>
+                  <span class="education_specialty"
+                    >Desenvolvimento, Análise e Suporte</span
+                  >
+                </div>
+              </div>
+    
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2018 - 2019</h3>
+                  <span class="education_university">Up Inside Treinamentos</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">FORMAÇÃO FULL STACK PHP DEVELOPER</h3>
+                  <span class="education_specialty">Frontent/Backend</span>
+                </div>
+              </div>
+    
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2020 - 2020</h3>
+                  <span class="education_university">IGTI</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">Desenvolvimento Full Stack</h3>
+                  <span class="education_specialty">Frontent/Backend</span>
+                </div>
+              </div>
+    
+              <div class="education_content">
+                <div>
+                  <h3 class="education_year">2020 - 2021</h3>
+                  <span class="education_university">Trybe</span>
+                </div>
+    
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+    
+                <div>
+                  <h3 class="education_race">Desenvolvimento Full Stack</h3>
+                  <span class="education_specialty">Frontent/Backend</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- ===== PROJECT IN MIND ==== -->
+        <section class="project section">
+            <div class="project_container bd-grid">
+              <div class="project_data">
+                <h2 class="section-title project_title">Por que me contratar?</h2>
+                <p class="project_description">Entendo que o aprofundamento dos meus conhecimentos em Desenvolvimento, podem fazer uma grande diferença. A aplicação direta do conhecimento adquirido em aula simulando o ambiente real de desenvolvimento de uma empresa como ocorre no meu atual aprendizado na trybe, traz a cada dia um grande impacto no desenvolvimento de soft skills e hard skills.</p>
+                <a href="#contact" class="button button_light">Contact Me</a>
+              </div>
+              <img src="/assets/img/contactme.fw.png" alt="" class="project_img" />
+            </div>
+          </section>
+        <!-- ===== WORKS ==== -->
+        <section class="works section" id="works">
+            <span class="section-subtitle">Meu Portifolio</span>
+            <h2 class="section-title">Projetos Recentes</h2>
+    
+            <div class="works_container bd-grid">
+              <div class="works_img">
+                <img src="/assets/img/work1.jpg" alt="" />
+    
+                <div class="works_data">
+                  <a href="#" class="works_link"><i class="bx bx-link-alt"></i></a>
+                  <span class="works_title">Projeto 1</span>
+                </div>
+              </div>
+    
+              <div class="works_img">
+                <img src="/assets/img/work2.jpg" alt="" />
+    
+                <div class="works_data">
+                  <a href="#" class="works_link"><i class="bx bx-link-alt"></i></a>
+                  <span class="works_title">Projeto 1</span>
+                </div>
+              </div>
+              <div class="works_img">
+                <img src="/assets/img/work3.jpg" alt="" />
+    
+                <div class="works_data">
+                  <a href="#" class="works_link"><i class="bx bx-link-alt"></i></a>
+                  <span class="works_title">Projeto 2</span>
+                </div>
+              </div>
+    
+              <div class="works_img">
+                <img src="/assets/img/work4.jpg" alt="" />
+    
+                <div class="works_data">
+                  <a href="#" class="works_link"><i class="bx bx-link-alt"></i></a>
+                  <span class="works_title">Projeto 3</span>
+                </div>
+              </div>
+    
+              <div class="works_img">
+                <img src="/assets/img/work5.jpg" alt="" />
+    
+                <div class="works_data">
+                  <a href="#" class="works_link"><i class="bx bx-link-alt"></i></a>
+                  <span class="works_title">Projeto 5</span>
+                </div>
+              </div>
+    
+              <div class="works_img">
+                <img src="/assets/img/work6.jpg" alt="" />
+    
+                <div class="works_data">
+                  <a href="#" class="works_link"><i class="bx bx-link-alt"></i></a>
+                  <span class="works_title">Projeto 6</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- ===== CONTACT ==== -->
+        <secion class="contact section" id="contact">
+            <span class="section-subtitle"></span>
+            <h2 class="section-title">Entrar em contato</h2>
+    
+            <div class="contact_container bd-grig">
+              <form action="" class="contact_form">
+                <div class="contact_inputs">
+                  <input type="text" placeholder="Nome" class="contact_input" />
+                  <input type="mail" placeholder="Email" class="contact_input" />
+                </div>
+    
+                <input type="text" placeholder="Projeto" class="contact_input" />
+    
+                <textarea
+                  name=""
+                  id=""
+                  cols="0"
+                  rows="10"
+                  placeholder="Mensagem"
+                  class="contact_input"
+                ></textarea>
+    
+                <input
+                  type="submit"
+                  value="Enviar Mensagem"
+                  class="button contact_button"
+                />
+    
+                <div>
+                  <div class="contact_info">
+                    <h3 class="contact_subtitle">Me ligue</h3>
+                    <span class="contact_text">(11) 9 8284-7131</span>
+                    <span class="contact_text">(11) 4343-6961</span>
+                  </div>
+    
+                  <div class="contact_info">
+                    <h3 class="contact_subtitle">E-mail</h3>
+                    <span class="contact_text">alvesdjorge@gmail.com</span>
+                    <span class="contact_text">jdonizetialves@hotmail.com</span>
+                  </div>
+    
+                  <div class="contact_info">
+                    <h3 class="contact_subtitle">Endereço</h3>
+                    <span class="contact_text">Passagem Aparecida N &deg; 14</span>
+                    <span class="contact_text">São Bernardo do Campo - SP</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </secion>
+
+    </main>
+
+    <!-- ===== FOOTER ==== -->
+    <footer class="footer section">
+      <div class="footer_container bd-grid">
+        <h1 class="footer_title">Jorge Alves</h1>
+        <p class="footer_description">
+          Olá, este é meu site pessoal, consulte-me aqui
+        </p>
+
+        <div class="footer_social">
+          <a href="#" class="footer_link"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="footer_link"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#" class="footer_link"><i class="bx bxl-telegram"></i></a>
+        </div>
+
+        <p class="footer_copy">
+          Todos os direitos reservados a Jorge Alves - 2021
+        </p>
+      </div>
+    </footer>
+
+        <!-- ===== MAIN JS ==== -->
+    <script src="assets/js/main.js"></script>
+    <script>
+          function typeWhite(elemento){
+              const textoArray = elemento.innerHTML.split('');
+              elemento.innerHTML = ''
+              textoArray.forEach((letra, i) => {
+                  setTimeout(() => elemento.innerHTML += letra, 75 * i)            
+              });
+          }
+          const titulo = document.querySelector('.frase')
+
+          function typeWhitea(elementoa){
+              const textoArraya = elementoa.innerHTML.split('');
+              elementoa.innerHTML = ''
+              textoArraya.forEach((letraa, a) => {
+                  setTimeout(() => elementoa.innerHTML += letraa, 75 * a)            
+              });
+          }
+          const tituloa = document.querySelector('.frasea')
+         
+      </script>
+
+  </body>
+</html>
+ //   <!-- ===== BOX ICONS 2 ==== -->
+ //   <!-- <scrip src="https://kit.fontawesome.com/2c36e9b7b1.js"></scrip> -->
+
+  
+
+
