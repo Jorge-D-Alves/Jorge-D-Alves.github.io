@@ -633,6 +633,19 @@ img {
   cursor: pointer;
 }
 
+.sucesso {
+  outline: none;
+  border: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  color:black; 
+  text-shadow: 2px -2px 10px var(--first-color);
+  text-align: left; 
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .contact_info {
   margin-bottom: var(--mb-3);
 }
@@ -647,6 +660,7 @@ img {
   display: block;
   padding-left: 1rem;
 }
+
 
 /* ===== FOOTER ===== */
 .footer {
