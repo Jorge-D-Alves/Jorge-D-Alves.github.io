@@ -165,7 +165,7 @@ img {
   display: flex;
   align-items: center;
   background-color: var(--first-color);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .nav_close {
@@ -408,10 +408,15 @@ img {
 }
 
 .skills_sql {
-  width: 40%;
+  width: 20%;
 }
 
-.skills_sql {
+
+.skills_git {
+  width: 20%;
+}
+
+.skills_shel {
   width: 20%;
 }
 
@@ -509,7 +514,7 @@ img {
 .services_icon,
 .services_description,
 .services_title {
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .services_content:hover {
@@ -578,7 +583,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(204, 75, 44, 0.7);
+  background: rgba(44, 47, 204, 0.7);
   border-radius: 0.5rem;
   transition: 0.3s;
 }
