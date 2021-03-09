@@ -636,8 +636,12 @@ img {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   cursor: pointer;
+  scroll-behavior: smooth;
 }
-
+ 
+:target {
+  scroll-margin-top: .8em;
+}
 .sucesso {
   outline: none;
   border: none;
