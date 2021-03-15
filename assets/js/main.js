@@ -41,7 +41,11 @@ function scrollActive(){
         }else{
             document.querySelector('.nav_menu a[href*='+ sectionId + ']').classList.remove('active')
         }
+
+        
     })
+
+
 
 }
 /* ===== MENU SHOW Y HIDDEN ===== */
