@@ -494,28 +494,31 @@
       const tituloa = document.querySelector('.frasea') 
 
       function sweetalertclick (){
-        if(document.getElementById("nome").value == ""
+        if(document.getElementById("name").value == ""
         && document.getElementById("email").value == "" 
         && document.getElementById("projeto").value == "" 
         && document.getElementById("textarea").value == ""){
-          Swal.fire({
-            title: 'erro',
-            text: 'Favor preencher todos os campos!',
-            icon: 'error',
-            confirmButtonText: 'Cool',
-            timer: 2000
-          })
+            Swal.fire({
+                position: 'top-end',
+                title: 'erro',
+                text: 'Favor preencher todos os campos!',
+                icon: 'error',
+                // confirmButtonText: 'Cool',
+                showConfirmButton: false,
+                // timer: 1500
+            })
         }else{
-          Swal.fire({
-            title: 'Sucesso',
-            text: 'Mensagem enviada com sucesso!',
-            icon: 'success',
-            confirmButtonText: 'Cool',
-            timer: 2000
-          })
+            Swal.fire({
+                position: 'top-end',
+                title: 'Sucesso',
+                text: 'Mensagem enviada com sucesso!',
+                icon: 'success',
+                // confirmButtonText: 'Cool',
+                showConfirmButton: false,
+                // timer: 1500
+            })
         }
-      }
+    }
     </script>
   </body>
 </html>
- 
