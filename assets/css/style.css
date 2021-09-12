@@ -382,19 +382,19 @@ img {
 }
 
 .skills_html {
-  width: 80%;
+  width: 70%;
 }
 
 .skills_js {
-  width: 70%;
+  width: 50%;
 }
 
 .skills_react {
-  width: 70%;
+  width: 40%;
 }
 
 .skills_angular {
-  width: 40%;
+  width: 20%;
 }
 
 .skills_php {
@@ -406,16 +406,19 @@ img {
 }
 
 .skills_sql {
+  width: 40%;
+}
+
+.skills_nosql {
   width: 20%;
 }
 
-
 .skills_git {
-  width: 20%;
+  width: 30%;
 }
 
 .skills_shel {
-  width: 20%;
+  width: 10%;
 }
 
 /* ===== FORMAÇÕES ===== */
